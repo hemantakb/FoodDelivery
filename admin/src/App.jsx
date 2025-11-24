@@ -35,6 +35,7 @@ const App = () => {
 
        <div className=' sm:min-w-md'>
          <Routes>
+        <Route path='/' element={<Add/>}/>
         <Route path='/add' element={<Add/>}/>
         <Route path='/list' element={<List/>}/>
         <Route path='/order' element={<Order/>}/>
